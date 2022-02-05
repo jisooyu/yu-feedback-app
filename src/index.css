@@ -67,7 +67,7 @@ header {
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
+  background: #eaebe7;
   width: 50px;
   height: 50px;
   padding: 10px;
@@ -151,10 +151,9 @@ input:focus {
 }
 
 .btn {
-  color: #fff;
   border: 0;
   border-radius: 8px;
-  color: #fff;
+  color: rgb(232, 248, 0);
   width: 100px;
   height: 40px;
   cursor: pointer;
@@ -187,7 +186,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: rgb(248, 252, 9);
 }
 
 .about-link {
