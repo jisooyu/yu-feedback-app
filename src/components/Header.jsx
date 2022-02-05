@@ -6,13 +6,13 @@ const Header = ({text, bgColor, textColor}) => {
         background: bgColor,
         color:textColor
     }
-  return (
-    <header style={headerStyles} >
-        <div className='container'>
-            <h2>{text}</h2>
-        </div>
-    </header>
-)
+    return (
+        <header style={headerStyles} >
+            <div className='container'>
+                    <h2>{text}</h2>
+            </div>
+        </header>
+    )
 };
 
 Header.defaultProps = {
